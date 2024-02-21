@@ -11,7 +11,7 @@ Notes:
 
 
 [Zookeeper (JavaScript)](https://hyperskill.org/projects/225)
-[Stage 4/4](./docs/Stage-4_4.md)
-[Stage 3/4](./docs/Stage-3_4.md)
-[Stage 2/4](./docs/Stage-2_4.md)
-[Stage 1/4](./docs/Stage-1_4.md)
+* [Stage 4/4](./docs/Stage-4_4.md)
+* [Stage 3/4](./docs/Stage-3_4.md)
+* [Stage 2/4](./docs/Stage-2_4.md)
+* [Stage 1/4](./docs/Stage-1_4.md)

@@ -1,5 +1,5 @@
 # Work on project. Stage 4/4: Sustainable care <3
-Project: My First Project (JavaScript)
+Project: Zookeeper (JavaScript)
 <hr />
 
 # Sustainable care <3

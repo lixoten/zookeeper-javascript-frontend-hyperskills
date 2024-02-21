@@ -1,5 +1,5 @@
 # Work on project. Stage 3/4: What's inside?
-Project: My First Project (JavaScript)
+Project: Zookeeper (JavaScript)
 <hr />
 
 # What's inside?
