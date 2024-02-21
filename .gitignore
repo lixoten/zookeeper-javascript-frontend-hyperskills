@@ -1,0 +1,7 @@
+task.html
+/node_modules/
+/Topics/
+*.yaml
+*.idea
+*.py
+requirements.txt
