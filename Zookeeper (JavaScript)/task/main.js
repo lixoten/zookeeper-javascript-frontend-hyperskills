@@ -1,4 +1,4 @@
-// Stage 3/4
+// Stage 4/4
 input = require('sync-input');
 
 camel =`
@@ -122,25 +122,27 @@ Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!`;
 
-answer = input("Please enter the number of the habitat you would like to view:");
-if (answer == 0) {
-    console.log(camel)
-} else
-if (answer == 1) {
-    console.log(lion)
-} else
-if (answer == 2) {
-    console.log(deer)
-} else
-if (answer == 3) {
-    console.log(goose)
-} else
-if (answer == 4) {
-    console.log(bat)
-} else
-if (answer == 5) {
-    console.log(rabbit)
-} else
-    console.log(rabbit)
+habitat = [camel, lion, deer, goose, bat, rabbit ];
 
-console.log("---\nYou've reached the end of the program. To check another habitat, please restart the watcher.")
+// let zooOpen = true;
+while (true) {
+    let answer = input("Please enter the number of the habitat you would like to view:");
+    // if (answer == "exit") {
+    //     zooOpen = false;
+    // } else {
+    //     console.log(habitat[answer])
+    // }
+    // zooOpen = (answer == "exit") ? zooOpen = false : true
+    // console.log(habitat[answer]);
+
+    if (answer.toLowerCase() == 'exit') {
+        break;
+    }
+
+    if (answer >= 0 && answer <=15) {
+        console.log(habitat[answer]);
+    } else {
+        console.log("ooops");
+    }
+}
+console.log("See you later!");
